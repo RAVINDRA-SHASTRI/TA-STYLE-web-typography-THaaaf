@@ -1,0 +1,136 @@
+<!-- writeCode
+
+- Create an insurance website according to the layout shown below.
+
+![Web Typography Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/web-typography/ex-2.png)
+
+### Typography
+
+**Heading**
+
+Font Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display?query=dm+se)
+
+**Body**
+
+Font Family: [Karla](https://fonts.google.com/specimen/Karla?query=karla)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+- Work on typography in detail. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2-web-typography</title>
+                <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&
+                family=Karla:wght@500&display=swap" rel="stylesheet">
+                <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1ccbc6b453.js" crossorigin="anonymous"></script>
+                <!-- STYLESHEET -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+
+</head>
+<body>
+    <header class="container flex">
+        <div class="header">
+            <h1>
+                Humanizing Your Insurence
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Repellendus architecto molestiae, velit dolorem et alias 
+               voluptatem aliquid at corporis non fugiat eum distinctio 
+               ipsum, nihil ex id, dolor eligendi dignissimos?
+            </p>
+               <a href="#">VIEW PLANS</a>
+        </div>
+        <div class="image alin-items flex">
+               <img src="assets/media/01.png" alt="01">
+        </div>
+    </header>
+    <main>
+        <section class="container justify-bw flex">
+            <div class="image alin-items flex">
+                <img src="assets/media/02.png" alt="02">
+            </div>
+            <div class="section-header">
+                <h2>
+                    About the Insure
+                </h2>
+                <p class="section-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi nesciunt eligendi aut necessitatibus provident beatae,
+                    officia mollitia atque similique,est suscipit, ex dolore? Impedit 
+                    cumque molestias dolore placeat dolores velit?
+                </p>
+                <a href="#">KNOW MORE</a>
+            </div>
+        </section>
+        <article class="container">
+            <h2>
+                We are different
+            </h2>
+            <div class="flex">
+                <div class="article-para">
+                    <h3>Easy Process</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Est, perspiciatis dolore qui, hic autem nisi, repudiandae tempore voluptas
+                        sapiente alias facere placeat culpa labore animi vitae exercitationem velit iure harum.
+                    </p>
+                </div>
+                <div class="article-para">
+                    <h3>Affordable Price</h3>
+                    <p >
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Nemo voluptatum perspiciatis molestiae, cumque dolores 
+                        repudiandae harum voluptatibus nostrum provident ex 
+                        quis necessitatibus nihil culpa, dolore voluptates
+                        natus recusandae excepturi minima.
+                    </p>
+                </div>
+                <div class="article-para">
+                    <h3>You Come First</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Placeat ipsum accusantium consequatur fugit voluptate dicta
+                        tenetur consequuntur, consectetur cum blanditiis. Officiis
+                        iure amet illo dolor neque possimus illum culpa velit!
+                    </p>
+                </div>
+            </div>
+        </article>
+        <section class=" container">
+            <div class="flex">
+                <h4>Find out more about how we work</h4>
+            </div>
+            <a class="btn" href="#">HOW WE WORK</a>
+        </section>
+        <section class="container flex justify-bw">
+            <div>
+                Proinsure
+            </div>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+            <hr>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">How we work</a>
+            </nav>
+        </section>
+    </main> 
+    <footer class="footer flex">
+        <small>
+            &copy AltCampus Services Pvt.Ltd,2018-present
+        </small>
+    </footer>
+</body>
+</html>
