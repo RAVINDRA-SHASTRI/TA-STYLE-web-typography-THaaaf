@@ -53,11 +53,14 @@ table {
     box-sizing:border-box;
 }
 body {
-    font-family: "Roboto slab",sans-serif;
+	font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-size: 16px;
 	background-color: rgb(40,46,43);
 	color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6,time {
+	font-family: "Source Serif Pro", serif;
 }
 .container {
     max-width: 1200px;
@@ -69,27 +72,37 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-/* HEADER */
-.header {
+/* ARTICLE */
+.article-header {
+	padding: 32px 0;
+	color: #ffffff;
+}
+.article-header h1 {
+	font-size: 56px;
+	/* font-family: "Source Serif Pro", serif; */
+	text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+	text-transform: capitalize;
+}
+.article-header h3 {
 	font-size: 32px;
-	font-weight: bolder;
-	margin: 20px;
-	text-align: center;
+	color: red;
+	font-weight: 700;
+	/* font-family: "Source Serif Pro", serif; */
 }
-.header-div-one {
-text-align: left;
-color: rgb(250,2,71);
-margin-top: 20px;
-margin-left: 24px;
+.article-header time {
+	font-size: 32px;
 }
-.header-div-two {
-text-align: right;
-margin-bottom: 40px;
-margin-right: 24px;
-word-spacing: 2px;
+p {
+margin: 16px;
+font-size: 20px;
+color: #d5d5be;
+line-height: 1.7;
 }
-.article {
-margin: 20px;
-font-size: 16px;
-word-spacing: 2px;
+h2 {
+	font-size: 48px;
+	color: #ffffff;
+	margin-top: 48px;
+	margin-bottom: 16px;
+	text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+	/* font-family: "Source Serif Pro", serif; */
 }
